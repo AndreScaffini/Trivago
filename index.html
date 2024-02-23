@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivago</title>
+    <link rel="shortcut icon" href="../Tailwind/img/logotipo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <div class="flex w-full px-52 py-4 justify-between border ">
+            <div class="w-1/5">
+                <img src="../Tailwind/img/logo-header.png" alt="Logo-de-Trivago">
+            </div>
+            <nav class=" w-4/5 py-1">
+                <ul class="flex justify-center items-center">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <li class="pl-2 pr-10">Vistos recientemente</li>
+                    <i class="fa-regular fa-heart"></i>
+                    <li class="pl-2 pr-10">Favoritos</li>
+                    <i class="fa-solid fa-globe"></i>
+                    <li class="pl-2 pr-10">US $</li>
+                    <i class="fa-solid fa-user"></i>
+                    <li class="pl-2 pr-10">Iniciar sesión</li>
+                    <i class="fa-solid fa-bars"></i>
+                    <li class="pl-2 pr-10"></i>Menú</li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class=" flex w-full justify-center px-52  py-6">
+            <div class="w-2/6">
+                <div class=" flex justify-center w-full ">
+                    <div class=" flex justify-center items-center w-1/6">
+                        <i class="fa-solid fa-magnifying-glass" style="font-size: 25px;"></i>
+                    </div>
+                    <div class="w-5/6">
+                        <h10 style="font-size: smaller;">Destino</h10>
+                        <input class="w-full" type="search" style="outline: none;" placeholder="¿Donde quieres ir?">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-1/6">
+                <div class=" flex justify-center w-full ">
+                    <div class=" flex justify-center items-center w-1/5">
+                        <i class="fa-regular fa-calendar-days" style="font-size: 20px;"></i>
+                    </div>
+                    <div class="w-5/6">
+                        <h10 style="font-size: smaller;">Entrada</h10>
+                        <input class="w-full" type="text" style="outline: none;" placeholder="--.--.--">
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/6">
+                <div class="">
+                    <h10 style="font-size: smaller;">Salida</h10>
+                    <input class="w-full" type="text" style="outline: none;" placeholder="--.--.--">
+                </div>
+            </div>
+            <div class="w-2/6 border-solid border-2 border-indigo-600" >
+                <div class=" flex justify-center w-full ">
+                    <div class=" flex justify-center items-center w-1/6">
+                       <i class="fa-solid fa-bed" style="font-size: 20px;"></i>
+                    </div>
+                    <div class="w-5/6">
+                        <h10 style="font-size: smaller;">Huéspedes-habitaciones</h10>
+                        <input class="w-full" type="search" style="outline: none;" placeholder="# huéspedes, # habitación">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+</body>
+
+</html>
